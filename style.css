@@ -1,0 +1,469 @@
+header{
+    width: 100%;
+}
+.top{
+    width: 100%;
+    height: 50px;
+    background-color: #f4f4f4;
+    position:absolute;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.top a{
+    margin-left: 20 px;
+    text-decoration: underline;
+    color: inherit;
+}
+
+.teslalogo{
+    width: auto;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 40px ;
+
+}
+
+.navigation{
+    height: 40px;
+    width: 100%;
+    background-color: none;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    z-index: 1500;
+    margin-top: 40px;
+}
+
+.center-nav{
+    height: 2rem;
+    flex:8;
+    margin-left: 100px;
+    
+}
+.right-nav{
+    flex: 3;
+    margin: 0px;
+    display: flex;
+    margin-top: 50px;
+    
+}
+.mainlist{
+
+    display: flex;
+    padding: 10px;
+    list-style: none;
+    justify-content: center ;
+    align-items: center ;
+    text-decoration: none;
+    margin-left: 80px;
+}
+.list{
+    text-decoration: none;
+    color: rgb(253, 251, 251);
+    width: 2rem;
+    padding: 10px 12px;
+    font-size: 0.90rem;
+     font-stretch: expanded ;
+     letter-spacing: 1px;
+font-family: "M PLUS 1",sans-serif;
+font-weight: 600;
+margin: 0 0.5rem;
+}
+
+
+.list:hover{
+    background-color:rgb(109, 114, 109);
+border-radius: 5px;
+}
+
+.list2{
+    text-decoration: none;
+    color: rgb(253, 251, 251);
+    width: 1.5rem;
+    padding: 2px 2px;
+    font-size: 0.90rem;
+     font-stretch: expanded ;
+     letter-spacing: 1px;
+font-family: "M PLUS 1",sans-serif;
+font-weight: 600;
+margin-left: 0.75rem;
+}
+
+.list2:hover{
+    background-color:rgb(109,114,109);
+    box-shadow: #5c5e62;
+border-radius: 5px;
+}
+body{
+    margin: 0;
+    font-family: "M PLUS 1",sans-serif;
+font-weight: 600;
+}
+.picture{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#page{
+    background-image: url(tesla.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 850px;
+    width:100%;
+    
+
+   
+}
+
+.logo2{
+    height: 120px;
+    width: 450px;
+margin-top: 550px;
+margin-left: 0px;
+font : white;
+
+}
+.button{
+    height: 40px;
+    width: 200px;
+    margin-bottom: 15 px;
+    margin-left: 53px;
+    border-radius: 5px;
+    
+    font-family: "M PLUS 1",sans-serif;
+    font-weight: 600;
+    border-width: 0cap;
+color: #393c41;
+}
+.page2{
+
+border-radius: 5px;
+width: 1400px;
+height:700px;
+position: relative;
+}
+.page-2{
+    display:flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header-container{
+    height: 100vh;
+    width: 100%;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+    position: absolute;
+    
+}
+.header-container>.header{
+    font-size: 2.5rem ;
+font-weight: 800 ;
+color:rgb(248, 247, 247);
+font-family:"M PLUS 1",sans-serif ;
+}
+.header-container>p{
+    color: rgb(247, 244, 244);
+    font-weight: 600;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+.header-container>h2{
+    color: rgb(247, 244, 244);
+    font-weight: 600;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+.button2{
+    display:flex;
+    justify-content: center;
+    position: absolute;
+  margin-top: 600px;
+}
+.button2 a{
+    margin: 10px;
+    height: 40px;
+    width: 15rem;
+    border-radius: .25rem;
+    text-decoration: none;
+display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+}
+.btn1{
+    background-color: rgb(154, 81, 227);
+    color: white ;
+    font-weight: 600;
+    font-size: 1 rem ;
+}
+.btn2{
+    background-color: rgb(246,243,243);
+    color: rgb(96, 80, 69);
+}
+.header-container2{
+    height: 100vh;
+    width: 100%;
+    padding-left: 1vh;
+    padding-bottom: 15vh;
+    text-align: center;
+    position: absolute;
+}
+
+.btn3{
+    background-color: #111;
+    color: #a2a3a5 ;
+    font-weight: 600;
+    font-size: 1 rem ;
+    
+}
+.btn4{
+    background-color : #111;
+    color: #a2a3a5 ;
+    font-weight: 600;
+    font-size: 1 rem ;
+}
+
+
+
+
+
+
+
+.page-left{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.page3{
+
+    border-radius: 8px;
+    width: 680px;
+    height:700px;
+    position: relative;
+    margin-right: 15px;
+    
+    }
+
+    .header-container3{
+        
+        
+        padding-top: 15vh;
+        
+        align-content: center;
+        position: absolute;
+        align-content: center;
+        border-radius: 7px;
+        justify-content: center;
+    }
+    .header-container3>.header3{
+        font-size: 2.5rem ;
+    font-weight: 800 ;
+    color:rgb(248, 247, 247);
+    font-family:"M PLUS 1",sans-serif ;
+    margin-left: 60px;
+    }
+    .header-container3>p{
+        color: rgb(247, 244, 244);
+        font-weight: 600;
+        margin-top: 0.5rem;
+        font-size: 1.8rem;
+    }
+    .header-container3>.h2{
+        color: rgb(247, 244, 244);
+        font-weight: 600;
+        margin-top: 0.5rem;
+        font-size: 1rem;
+    }
+    .button3{
+        display:flex;
+        justify-content: center;
+        align-content: center;
+        position: absolute;
+      margin-top: 600px;
+      text-align: center;
+    }
+    
+    .button3 a{
+        margin: 10px;
+        height: 40px;
+        width: 15rem;
+        border-radius: .25rem;
+        text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    }
+    .btn5{
+        background-color: rgb(154, 81, 227);
+        color: white ;
+        font-weight: 600;
+        font-size: 1 rem ;
+       
+    }
+    .btn6{
+        background-color: rgb(246,243,243);
+        color: rgb(96, 80, 69);
+        font-weight: 600;
+        font-size: 1 rem ;
+
+    }
+
+
+
+
+
+    .page-right{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 5px;
+    }
+
+    .page4{
+       display: flex;
+        border-radius: 8px;
+        width: 680px;
+        height:700px;
+        position: relative;
+        margin-left: 20px;
+        
+        }
+
+    .header-container4{
+        height: 10h;
+        padding-top: 15vh;
+        position: absolute;
+        
+        
+    }
+    .header-container4>.header4{
+        font-size: 2.5rem ;
+    font-weight: 800 ;
+    color:rgb(248, 247, 247);
+    font-family:"M PLUS 1",sans-serif ;
+    margin-left: 130px;
+    }
+    .header-container4>p{
+        color: rgb(247, 244, 244);
+        font-weight: 600;
+        margin-top: 0.5rem;
+        font-size: 1.8rem;
+    }
+    .header-container4>h2{
+        color: rgb(247, 244, 244);
+        font-weight: 600;
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        
+        
+    }
+    .button4{
+        display:flex;
+        justify-content: center;
+        align-content: center;
+        position: absolute;
+      margin-top: 600px;
+      text-align: center;
+  
+    }
+    .button4 a{
+        margin: 10px;
+        height: 40px;
+        width: 15rem;
+        border-radius: .25rem;
+        text-decoration: none;
+        display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    flex-direction: column-reverse;
+    
+    }
+    .btn7{
+        background-color: rgb(154, 81, 227);
+        color: white ;
+        font-weight: 600;
+        font-size: 1 rem ;
+    }
+    .btn8{
+        background-color: rgb(246,243,243);
+        color: rgb(96, 80, 69);
+    }
+    .outer{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .vcontain{
+        width: 1400px;
+        height: 100%;
+        border-radius: 5px;
+        margin-left: 60px;
+        
+        
+    }
+    .vcontain video{
+        
+        
+        
+        width:100% ;
+        border-radius: 5px;
+        position: relative;
+        justify-content: center;
+        background-position: center ;
+        
+    }
+   
+     .paragraph{
+        text-align: center;
+        text-shadow: #a2a3a5;
+        color: #5c5e62;
+        font-family:"lucida console" "courier new" ;
+        font-size: 13px;
+     }
+
+     .list2{
+        text-decoration: none;
+        size: 8px;
+        padding: 5px 2px;
+        font-size: 0.7rem;
+        font-stretch: expanded;
+        font-family:"lucida console" "courier new" ;
+        color:#5c5e62 ;
+        text-align: center;
+        
+
+    }
+
+     
+    .finalfoot{
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        margin-left: 500px;
+        width: 100%;
+        
+
+
+    }
+    .footer{
+        
+        text-align: center;
+    }
